@@ -1,0 +1,25 @@
+{
+  "name": "minimal-react-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Karl Saehun Chung",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cd public && npx serve",
+    "build": "npx webpack",
+    "start": "npm run build && npm run dev"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "serve": "^9.4.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
